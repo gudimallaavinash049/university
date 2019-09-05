@@ -1,7 +1,7 @@
 @import "materialize";
 
 .nav-color {
-    background-color: #123C69;
+    background-color:black;
 }
 
 .brand-weight {
@@ -33,7 +33,7 @@
     color: orange;
 }
 .footer-color {
-    background-color: #123C69;
+    background-color:black;
     padding-bottom: 0px;
 }
 
@@ -52,4 +52,7 @@ body {
 main {
     flex: 1 0 auto;
 }
+.photo {
+    border-radius: 48%;
+  }
       
