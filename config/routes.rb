@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   delete 'logout', to: 'logins#destroy'
   resources :students
   post 'course_enroll', to: 'student_course#create'
+  get 'about',to:'pages#about'
 end
